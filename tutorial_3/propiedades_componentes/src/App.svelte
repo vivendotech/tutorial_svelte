@@ -1,5 +1,8 @@
 <script>
+	import Componente from "./Componente.svelte";
+	
 	export let name;
+
 </script>
 
 <style>
@@ -8,4 +11,9 @@
 	}
 </style>
 
+<!-- oi -->
 <h1>Hello {name}!</h1>
+
+
+
+<Componente propiedade={ "hallo123"}/>
